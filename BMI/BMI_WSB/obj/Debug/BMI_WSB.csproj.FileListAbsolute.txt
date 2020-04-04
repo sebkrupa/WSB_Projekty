@@ -1,0 +1,17 @@
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\bin\Debug\BMI_WSB.exe.config
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\bin\Debug\BMI_WSB.exe
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\bin\Debug\BMI_WSB.pdb
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.csprojAssemblyReference.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\MainWindow.g.cs
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\wynik.g.cs
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\App.g.cs
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB_MarkupCompile.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB_MarkupCompile.lref
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\MainWindow.baml
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\wynik.baml
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.g.resources
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.Properties.Resources.resources
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.csproj.GenerateResource.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.csproj.CoreCompileInputs.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.exe
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\BMI\BMI_WSB\obj\Debug\BMI_WSB.pdb
