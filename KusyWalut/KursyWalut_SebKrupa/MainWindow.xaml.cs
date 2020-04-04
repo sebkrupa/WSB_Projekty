@@ -16,6 +16,9 @@ namespace KursyWalut_SebKrupa
         {
             InitializeComponent();
             SprawdzPoprawnosc(); //pobieranie kursów z serwera NBP
+            cbWaluta1.SelectionChanged += (s, e) => { PrzeliczKurs(); }; //przeliczenie kursu po zmianie waluty
+            cbWaluta2.SelectionChanged += (s, e) => { PrzeliczKurs(); }; //przeliczenie kursu po zmianie waluty
+
         }
         public ObservableCollection<KursyNBP> kursyWalutNBP = new ObservableCollection<KursyNBP>(); //kolekcja kursów walut na której opiera się program
 
@@ -118,7 +121,7 @@ namespace KursyWalut_SebKrupa
 
         private void CbWaluta1_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) //dynamiczne przeliczanie waluty po zmianie waluty
         {
-            PrzeliczKurs();
+            //PrzeliczKurs();
         }
 
         private void PrzeliczKurs()

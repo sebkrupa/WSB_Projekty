@@ -1,0 +1,15 @@
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\bin\Debug\KursyWalut_SebKrupa.exe.config
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\bin\Debug\KursyWalut_SebKrupa.exe
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\bin\Debug\KursyWalut_SebKrupa.pdb
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.csprojAssemblyReference.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\MainWindow.g.cs
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\App.g.cs
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa_MarkupCompile.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa_MarkupCompile.lref
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\MainWindow.baml
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.g.resources
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.Properties.Resources.resources
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.csproj.GenerateResource.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.csproj.CoreCompileInputs.cache
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.exe
+C:\Users\sebkr\OneDrive\Dokumenty\GitHub\WSB_Projekty\KusyWalut\KursyWalut_SebKrupa\obj\Debug\KursyWalut_SebKrupa.pdb
