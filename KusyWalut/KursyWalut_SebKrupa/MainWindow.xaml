@@ -1,0 +1,56 @@
+﻿<Window x:Class="KursyWalut_SebKrupa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursyWalut_SebKrupa"
+        mc:Ignorable="d"
+        Title="Kalkulator Walut - WSB" Height="450" Width="800" x:Name="okno">
+    <Grid>
+        <Menu Height="20" VerticalAlignment="Top"> <!--menu główne-->
+            <MenuItem Header="Menu">
+                <MenuItem Header="Ukryj tabelę z kursami" Click="MenuItem_UkryjKursy" IsCheckable="True" IsChecked="False"/>
+                <MenuItem Header="O programie..." Click="MenuItem_Click_OpisProgramu"/>
+                <Separator/>
+                    <MenuItem Header="Zamknij Program" Click="MenuItem_ZamknijProgram"/>
+            </MenuItem>
+            <MenuItem Header="Pobierz aktualne kursy walut" Click="Button_ZaktualizujBaze"/>
+        </Menu>
+        <Grid Margin="0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="spPrzelicznik" HorizontalAlignment="Center" Margin="20" Grid.Column="0" VerticalAlignment="Center"> <!--panel obliczeniowy-->
+                <Label HorizontalAlignment="Center">Przelicz z</Label>
+                <StackPanel Orientation="Horizontal"> <!--panel z waluta1-->
+                    <TextBox x:Name="txtWaluta1" Width="150" Height="30" Margin="10" TextChanged="TxtWaluta1_TextChanged"/>
+                    <ComboBox x:Name="cbWaluta1" Width="80" Margin="10" SelectionChanged="CbWaluta1_SelectionChanged"/>
+                </StackPanel>
+                <Label HorizontalAlignment="Center">Przelicz na</Label>
+                <StackPanel Orientation="Horizontal"> <!--panel z waluta2-->
+                    <TextBox x:Name="txtWaluta2" Width="150" Height="30" Margin="10" TextChanged="TxtWaluta2_TextChanged" IsEnabled="False" />
+                    <ComboBox x:Name="cbWaluta2" Width="80" Margin="10" SelectionChanged="CbWaluta1_SelectionChanged"/>
+                </StackPanel>
+
+            </StackPanel> <!--panel z tabelą kursów na której opierają się obliczenia-->
+            <StackPanel x:Name="spKursy" Grid.Column="1" HorizontalAlignment="Center" Margin="10">
+                <Label x:Name="numerTabeli" HorizontalAlignment="Center"/>
+                <Label x:Name="dataNotowania" HorizontalAlignment="Center"/>
+                <Label x:Name="dataPublikacji" HorizontalAlignment="Center"/>
+                <DataGrid x:Name="dgKursy" Height="350" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding nazwa_waluty}" Header="Waluta"/>
+                        <DataGridTextColumn Binding="{Binding kod_waluty}" Header="Symbol"/>
+                        <DataGridTextColumn Binding="{Binding przelicznik}" Header="Przelicznik"/>
+                        <DataGridTextColumn Binding="{Binding kurs_sredni}" Header="Średni Kurs"/>
+                        <DataGridTextColumn Binding="{Binding kurs_kupna}" Header="Kurs Kupna"/>
+                        <DataGridTextColumn Binding="{Binding kurs_sprzedazy}" Header="Kurs Sprzedaży"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </Grid>
+        <Image Source="wsb.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="50" Margin="10,25"/> <!--logo uczelni-->
+        <Label HorizontalAlignment="Left" VerticalAlignment="Bottom">Sebastian Krupa, Marcin Kriger | 2019 WSB</Label> <!--twórcy-->
+    </Grid>
+</Window>

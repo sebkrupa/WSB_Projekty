@@ -1,0 +1,17 @@
+﻿<Window x:Class="BMI_WSB.wynik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BMI_WSB"
+        mc:Ignorable="d"
+        Title="wynik" Height="230" Width="930" ShowInTaskbar="False" 
+        ResizeMode="NoResize" Cursor="Hand" WindowStartupLocation="CenterScreen" AllowsTransparency="True" WindowStyle="None" Background="#FFBBBBBB" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock x:Name="txtWynik" FontSize="50" HorizontalAlignment="Center" Foreground="#FF23D43B"></TextBlock>
+            <Image Margin="20" Height="100" Source="ok.png" x:Name="buzka" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+        <Label HorizontalAlignment="Right" VerticalAlignment="Bottom" FontStyle="Italic" FontSize="11">kliknij w dowolne miejsce aby zamknąć...</Label>
+    </Grid>
+</Window>
